@@ -1,0 +1,114 @@
+/* --iconcolor: #d55c5a;
+--fontcolor: #8a4243;
+--main-bgcolor: #524945;
+--secondary-bgcolor: #ebd4cc; */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --iconcolor: #e49a99;
+  --fontcolor: #fff;
+  --secondary-bgcolor: linear-gradient(60deg, #87494d, #c35155, #65575b);
+  --main-bgcolor: #403739;
+}
+
+nav,
+main {
+  background: var(--main-bgcolor);
+}
+
+.logo span {
+  color: var(--iconcolor);
+}
+
+.list-group .list-group-item {
+  background: var(--secondary-bgcolor);
+  border: 3px solid;
+  border-color: var(--fontcolor);
+
+  color: var(--fontcolor);
+}
+
+.list-group a:hover {
+  background: #745756;
+  color: #fff;
+}
+
+.col .followers-card,
+.col .subscribers-card,
+.col .views-card,
+.col .likes-card {
+  border-radius: 0;
+}
+
+.followers-card .card-body,
+.subscribers-card .card-body,
+.views-card .card-body,
+.likes-card .card-body {
+  background: var(--secondary-bgcolor);
+}
+
+.followers-card .text,
+.subscribers-card .text,
+.views-card .text,
+.likes-card .text {
+  color: var(--fontcolor);
+}
+
+.col .doughchart,
+.col .piechart {
+  background: var(--secondary-bgcolor);
+  border: 1px solid;
+  border-color: var(--fontcolor);
+  border-radius: 0;
+}
+.dchart {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pchart {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lchart-col .lchart-card {
+  border-color: var(--fontcolor);
+  border-radius: 0;
+}
+.lchart-container {
+  background: var(--secondary-bgcolor);
+}
+
+.order-table .order-card,
+.card-table .table th,
+.card-table .table td {
+  background-color: var(--main-bgcolor);
+}
+
+.order-table .order-card {
+  border-color: var(--fontcolor);
+  border-radius: 0;
+}
+
+.card-table table {
+  border-bottom: 1px;
+  border-color: var(--fontcolor);
+  border-radius: 0;
+}
+.order-card .card-title,
+.table tr th,
+.table tr td {
+  color: var(--fontcolor);
+}
+
+.table tr .g-status {
+  color: rgb(54, 184, 54);
+}
+
+.table tr .r-status {
+  color: rgb(233, 67, 67);
+}
